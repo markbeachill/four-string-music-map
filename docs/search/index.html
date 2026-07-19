@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Search · Four-String Music Map</title>
+  <meta name="description" content="A curated route from playing songs to understanding music.">
+  <link rel="canonical" href="https://markbeachill.github.io/four-string-music-map/search/">
+  
+  <link rel="stylesheet" href="../assets/public.css">
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('fsmm-theme');
+        var dark = stored ? stored === 'dark'
+          : window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (dark) document.documentElement.setAttribute('data-theme', 'dark');
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <header class="public-header">
+    <div class="public-shell header-row">
+      <a class="public-brand" href="../"><span>Four-String</span> Music Map</a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="public-navigation" data-nav-toggle>Menu</button>
+      <nav id="public-navigation" class="public-nav" aria-label="Main navigation" data-public-nav>
+        
+          
+        
+          <a href="../learn/ukulele/">Learn Ukulele</a>
+        
+          <a href="../songs/">Song Atlas</a>
+        
+          <a href="../genres/">Genres</a>
+        
+          <a href="../theory/">Practical Music Theory</a>
+        
+          <a href="../ear-training/">Learning by Ear</a>
+        
+          <a href="../piano/">Basic Piano</a>
+        
+        <a href="../resources/">Resources</a>
+        <a href="../providers/">Teachers &amp; sites</a>
+        <a class="search-link" href="../search/">Search</a>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch between light and dark">Dark</button>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content" tabindex="-1">
+<header class="page-head"><div class="public-shell"><h1>Search</h1></div></header>
+<section class="content-block"><div class="content-width"><form class="site-search" method="get" data-public-search-form><input type="search" name="q" value="" placeholder="Try ‘blues’, ‘Country Roads’ or ‘strumming’" autocomplete="off" data-public-search-input><button>Search</button></form><div data-public-search-status><p class="result-count">Enter a search above. The static site searches its local index without sending data elsewhere.</p></div><ul class="res-list" data-public-search-results></ul></div></section>
+</main>
+  <footer class="public-footer">
+    <div class="public-shell footer-grid">
+      <div><strong>Four-String Music Map</strong><p>A curated music-learning map beginning with ukulele.</p></div>
+      <div><a href="../songs/">Song Atlas</a><a href="../resources/">Resources</a><a href="../providers/">Teachers &amp; sites</a></div>
+      <div><p>External lessons remain the property of their original creators. Links open at the source.</p></div>
+    </div>
+  </footer>
+  <script>window.SITE_BASE = "../";</script>
+  <script src="../assets/public-search.js" defer></script>
+  <script>
+    (function () {
+      var button = document.querySelector('[data-theme-toggle]');
+      if (!button) return;
+      var root = document.documentElement;
+      var label = function () {
+        button.textContent = root.getAttribute('data-theme') === 'dark' ? 'Light' : 'Dark';
+      };
+      label();
+      button.addEventListener('click', function () {
+        var dark = root.getAttribute('data-theme') === 'dark';
+        if (dark) { root.removeAttribute('data-theme'); }
+        else { root.setAttribute('data-theme', 'dark'); }
+        try { localStorage.setItem('fsmm-theme', dark ? 'light' : 'dark'); } catch (e) {}
+        label();
+      });
+    })();
+  </script>
+</body>
+</html>

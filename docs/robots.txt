@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://markbeachill.github.io/four-string-music-map/sitemap.xml

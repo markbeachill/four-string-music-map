@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Genres · Four-String Music Map</title>
+  <meta name="description" content="The same videos grouped by the kind of music they are for.">
+  <link rel="canonical" href="https://markbeachill.github.io/four-string-music-map/genres/">
+  
+  <link rel="stylesheet" href="../assets/public.css">
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('fsmm-theme');
+        var dark = stored ? stored === 'dark'
+          : window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (dark) document.documentElement.setAttribute('data-theme', 'dark');
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <header class="public-header">
+    <div class="public-shell header-row">
+      <a class="public-brand" href="../"><span>Four-String</span> Music Map</a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="public-navigation" data-nav-toggle>Menu</button>
+      <nav id="public-navigation" class="public-nav" aria-label="Main navigation" data-public-nav>
+        
+          
+        
+          <a href="../learn/ukulele/">Learn Ukulele</a>
+        
+          <a href="../songs/">Song Atlas</a>
+        
+          <a href="../genres/">Genres</a>
+        
+          <a href="../theory/">Practical Music Theory</a>
+        
+          <a href="../ear-training/">Learning by Ear</a>
+        
+          <a href="../piano/">Basic Piano</a>
+        
+        <a href="../resources/">Resources</a>
+        <a href="../providers/">Teachers &amp; sites</a>
+        <a class="search-link" href="../search/">Search</a>
+        <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch between light and dark">Dark</button>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content" tabindex="-1">
+<nav class="breadcrumbs public-shell" aria-label="Breadcrumbs"><a href="../">Home</a><span>›</span><a href="../">Four-String Music Map</a></nav>
+<header class="page-head"><div class="public-shell"><h1>Genres</h1><p class="page-standfirst">The same videos grouped by the kind of music they are for.</p></div></header>
+<div class="page-layout">
+  
+  <aside class="page-sidebar" aria-label="Section navigation">
+    <nav class="sidebar-inner">
+      
+        <p class="sidebar-title">Genres</p>
+        <ul class="sidebar-list">
+          
+            <li><a href="../genres/blues/">Blues</a></li>
+          
+            <li><a href="../genres/reggae/">Reggae, island and Hawaiian</a></li>
+          
+            <li><a href="../genres/jazz-and-swing/">Jazz and swing</a></li>
+          
+            <li><a href="../genres/folk/">Folk, country and traditional</a></li>
+          
+            <li><a href="../genres/rock-and-pop/">Rock and pop</a></li>
+          
+            <li><a href="../genres/funk-and-soul/">Funk and soul</a></li>
+          
+        </ul>
+      
+      
+    </nav>
+  </aside>
+  
+  <div class="page-main">
+    
+    
+    <section class="content-block soft-block"><div><h2>Continue through this section</h2><ul class="res-list"><li class="res-row page-row">
+  <a class="res-link" href="../genres/blues/">Blues</a>
+  <span class="res-meta"><span class="res-summary">Twelve-bars, shuffles and the runs that make four strings sound bluesy.</span></span>
+</li><li class="res-row page-row">
+  <a class="res-link" href="../genres/reggae/">Reggae, island and Hawaiian</a>
+  <span class="res-meta"><span class="res-summary">Offbeat chops, island strums and the Hawaiian repertoire the instrument came from.</span></span>
+</li><li class="res-row page-row">
+  <a class="res-link" href="../genres/jazz-and-swing/">Jazz and swing</a>
+  <span class="res-meta"><span class="res-summary">Chord melody, swing feel and the standards.</span></span>
+</li><li class="res-row page-row">
+  <a class="res-link" href="../genres/folk/">Folk, country and traditional</a>
+  <span class="res-meta"><span class="res-summary">Fingerpicked folk, country picking and the traditional repertoire.</span></span>
+</li><li class="res-row page-row">
+  <a class="res-link" href="../genres/rock-and-pop/">Rock and pop</a>
+  <span class="res-meta"><span class="res-summary">Riffs, power chords and songs from the charts.</span></span>
+</li><li class="res-row page-row">
+  <a class="res-link" href="../genres/funk-and-soul/">Funk and soul</a>
+  <span class="res-meta"><span class="res-summary">Wah-wah, muted chops and grooves built on the backbeat.</span></span>
+</li></ul></div></section>
+  </div>
+</div>
+</main>
+  <footer class="public-footer">
+    <div class="public-shell footer-grid">
+      <div><strong>Four-String Music Map</strong><p>A curated music-learning map beginning with ukulele.</p></div>
+      <div><a href="../songs/">Song Atlas</a><a href="../resources/">Resources</a><a href="../providers/">Teachers &amp; sites</a></div>
+      <div><p>External lessons remain the property of their original creators. Links open at the source.</p></div>
+    </div>
+  </footer>
+  <script>window.SITE_BASE = "../";</script>
+  <script src="../assets/public-search.js" defer></script>
+  <script>
+    (function () {
+      var button = document.querySelector('[data-theme-toggle]');
+      if (!button) return;
+      var root = document.documentElement;
+      var label = function () {
+        button.textContent = root.getAttribute('data-theme') === 'dark' ? 'Light' : 'Dark';
+      };
+      label();
+      button.addEventListener('click', function () {
+        var dark = root.getAttribute('data-theme') === 'dark';
+        if (dark) { root.removeAttribute('data-theme'); }
+        else { root.setAttribute('data-theme', 'dark'); }
+        try { localStorage.setItem('fsmm-theme', dark ? 'light' : 'dark'); } catch (e) {}
+        label();
+      });
+    })();
+  </script>
+</body>
+</html>
