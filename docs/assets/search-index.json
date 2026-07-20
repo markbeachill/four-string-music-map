@@ -372,6 +372,13 @@
   },
   {
     "type": "song",
+    "title": "I Love the Sound of Breaking Glass",
+    "description": "I Love the Sound of Breaking Glass",
+    "url": "songs/i-love-the-sound-of-breaking-glass/",
+    "keywords": "Nick Lowe Pub rock"
+  },
+  {
+    "type": "song",
     "title": "I Think I Like You Better When You're Gone",
     "description": "Reneé Rapp released \"I Think I Like You Better When You're Gone\" on her 2025 album Bite Me.",
     "url": "songs/i-think-i-like-you-better-when-you-re-gone/",
@@ -860,7 +867,7 @@
     "description": "",
     "url": "https://www.youtube.com/watch?v=-6HqUEGduY4",
     "external": true,
-    "image": "",
+    "image": "https://i.ytimg.com/vi/-6HqUEGduY4/hqdefault.jpg",
     "keywords": "video unknown"
   },
   {
@@ -1828,6 +1835,15 @@
   },
   {
     "type": "resource",
+    "title": "Charley Bowler - I Love The Sound Of Breaking Glass (Lowe/Bodnar/Goulding)",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=hMaEEdkEIv0",
+    "external": true,
+    "image": "https://i.ytimg.com/vi/hMaEEdkEIv0/mqdefault.jpg",
+    "keywords": "TheSeventhFirst video unknown"
+  },
+  {
+    "type": "resource",
     "title": "Chord Melody Ukulele: Part 1 Why Chords Are The Key (and learn \"Dirty Old Town\")",
     "description": "",
     "url": "https://www.youtube.com/watch?v=NZZKmCjFkiM",
@@ -2230,6 +2246,15 @@
     "external": true,
     "image": "https://i.ytimg.com/vi/M4RkWGGN9Gg/hqdefault.jpg",
     "keywords": "SpicyUke video beginner"
+  },
+  {
+    "type": "resource",
+    "title": "I Love the Sound of Breaking Glass — ukulele cover (Season 199)",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=DAUjv8GAmrw",
+    "external": true,
+    "image": "https://i.ytimg.com/vi/DAUjv8GAmrw/hqdefault.jpg",
+    "keywords": "video unknown"
   },
   {
     "type": "resource",
@@ -3772,6 +3797,15 @@
   },
   {
     "type": "resource",
+    "title": "Nick Lowe - “I Love The Sound of Breaking Glass” (Official Music Video)",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=BDbUEydkuR8",
+    "external": true,
+    "image": "https://i.ytimg.com/vi/BDbUEydkuR8/mqdefault.jpg",
+    "keywords": "Yep Roc Records video unknown"
+  },
+  {
+    "type": "resource",
     "title": "Nirvana - Smells Like Teen Spirit // Ukulele Tutorial",
     "description": "",
     "url": "https://www.youtube.com/watch?v=FondvV_w2Js",
@@ -4399,6 +4433,15 @@
     "external": true,
     "image": "https://i.ytimg.com/vi/SoVlXdKgogI/hqdefault.jpg",
     "keywords": "Avery Hill - Ukulele Studio video beginner"
+  },
+  {
+    "type": "resource",
+    "title": "Sweet Home Chicago - Tutorial",
+    "description": "",
+    "url": "https://www.youtube.com/watch?v=rWhfkU6hdms",
+    "external": true,
+    "image": "https://i.ytimg.com/vi/rWhfkU6hdms/hqdefault.jpg",
+    "keywords": "Avery Hill - Ukulele Studio video unknown"
   },
   {
     "type": "resource",
@@ -5533,7 +5576,7 @@
   {
     "type": "provider",
     "title": "Aimee Nolte Music",
-    "description": "Selected teaching and music resources from Aimee Nolte Music.",
+    "description": "Aimee Nolte is a jazz pianist, singer and educator whose lessons explore ear training, chords, melody, improvisation and musical understanding. Her explanations are useful beyond piano because they show how harmony and listening operate inside real music.",
     "url": "providers/aimee-nolte-music-e7e8b3/",
     "keywords": "youtube_channel"
   },
@@ -5547,7 +5590,7 @@
   {
     "type": "provider",
     "title": "AllForUke",
-    "description": "Selected teaching and music resources from AllForUke.",
+    "description": "AllForUke, created by musician and teacher Kevin Presbrey, provides ukulele lessons for beginners and developing players. Its wider learning library includes technique courses, song tutorials, play-alongs, tabs and song sheets for both standard and baritone ukulele.",
     "url": "providers/allforuke-5e7b35/",
     "keywords": "youtube_channel"
   },
@@ -5617,7 +5660,7 @@
   {
     "type": "provider",
     "title": "Become a Piano Superhuman",
-    "description": "",
+    "description": "Become a Piano Superhuman is an online piano-learning channel covering beginner technique, chords, progressions, note reading, music theory and playing by ear. The selected resources are especially useful for understanding harmony and keyboard-based explanations of general musical ideas.",
     "url": "providers/become-a-piano-superhuman-d195d9/",
     "keywords": "youtube_channel"
   },
@@ -5631,7 +5674,7 @@
   {
     "type": "provider",
     "title": "Bernadette Teaches Music",
-    "description": "Selected teaching and music resources from Bernadette Teaches Music.",
+    "description": "Bernadette Teaches Music offers accessible music lessons with a strong emphasis on beginner ukulele. The channel includes structured starter courses and challenges, technique lessons, song tutorials, play-alongs and supporting printable material.",
     "url": "providers/bernadette-teaches-music-f55799/",
     "keywords": "youtube_channel"
   },
@@ -5729,7 +5772,7 @@
   {
     "type": "provider",
     "title": "Cynthia Lin",
-    "description": "Selected teaching and music resources from Cynthia Lin.",
+    "description": "Cynthia Lin is a jazz ukulele artist and teacher known for approachable beginner lessons, song tutorials and play-alongs. Her resources combine clear chord and strumming instruction with arrangements designed to help learners play and sing complete songs.",
     "url": "providers/cynthia-lin-64d13f/",
     "keywords": "youtube_channel"
   },
@@ -5778,7 +5821,7 @@
   {
     "type": "provider",
     "title": "Elise Ecklund",
-    "description": "Selected teaching and music resources from Elise Ecklund.",
+    "description": "Elise Ecklund is a singer-songwriter and online creator whose music content includes ukulele and guitar tutorials, covers and original songs. Her ukulele lessons are generally approachable and song-led, introducing chords, strumming and practical techniques through familiar popular music.",
     "url": "providers/elise-ecklund-71ba12/",
     "keywords": "youtube_channel"
   },
@@ -5883,7 +5926,7 @@
   {
     "type": "provider",
     "title": "Internal Monologist",
-    "description": "Selected teaching and music resources from Internal Monologist.",
+    "description": "Internal Monologist is Cory's broader creative channel, formerly known as Cory Teaches Music. The resources selected for this site come mainly from its earlier teaching phase and include approachable ukulele song tutorials, rhythm exercises and practical advice about practising.",
     "url": "providers/internal-monologist-ddd9da/",
     "keywords": "youtube_channel"
   },
@@ -5925,7 +5968,7 @@
   {
     "type": "provider",
     "title": "Joe Luegers Music Academy",
-    "description": "Selected teaching and music resources from Joe Luegers Music Academy.",
+    "description": "Joe Luegers Music Academy specialises in ear training and practical music education. Its progressive exercises cover intervals, scales, chords, chord progressions, sight-singing and learning music by ear, with material for both independent learners and teachers.",
     "url": "providers/joe-luegers-music-academy-f29bf6/",
     "keywords": "youtube_channel"
   },
@@ -5981,7 +6024,7 @@
   {
     "type": "provider",
     "title": "Lara Markowitz",
-    "description": "",
+    "description": "Lara Markowitz creates ukulele arrangements and tutorials that show several ways to approach the same song. Her lessons commonly move from accessible strumming into fingerpicking, helping players develop richer accompaniments and more expressive arrangements of familiar music.",
     "url": "providers/lara-markowitz-8b1b4b/",
     "keywords": "youtube_channel"
   },
@@ -6023,7 +6066,7 @@
   {
     "type": "provider",
     "title": "Lindsay Müller",
-    "description": "",
+    "description": "Lindsay Müller is a Canadian singer-songwriter and ukulele instructor who teaches adults internationally. Her resources focus on total beginners, familiar songs, clear strumming guidance, chord changes, singing while playing and accessible introductions to fingerstyle.",
     "url": "providers/lindsay-m-ller-943a46/",
     "keywords": "youtube_channel"
   },
@@ -6065,7 +6108,7 @@
   {
     "type": "provider",
     "title": "Marco Cirillo Ukulele",
-    "description": "",
+    "description": "Marco Cirillo Ukulele focuses on musical exercises, fingerstyle, scales, chords and technique. The lessons often use short, song-like studies and original arrangements so that practice develops sound, control and musical expression rather than isolated mechanics alone.",
     "url": "providers/marco-cirillo-ukulele-f734d8/",
     "keywords": "youtube_channel"
   },
@@ -6093,7 +6136,7 @@
   {
     "type": "provider",
     "title": "Matthew Cawood",
-    "description": "",
+    "description": "Matthew Cawood is a pianist, producer and educator who makes music theory and technique understandable without separating them from real playing. His lessons cover reading music, practice, scales, musical thinking and the reasons behind common piano and musicianship problems.",
     "url": "providers/matthew-cawood-a50437/",
     "keywords": "youtube_channel"
   },
@@ -6156,7 +6199,7 @@
   {
     "type": "provider",
     "title": "My First Ukulele",
-    "description": "Selected teaching and music resources from My First Ukulele.",
+    "description": "My First Ukulele is a beginner-oriented learning site and channel covering first chords, strumming, technique and familiar songs. Its material is intended to support complete beginners while also offering lessons for intermediate players ready to extend their skills.",
     "url": "providers/my-first-ukulele-ed8d98/",
     "keywords": "youtube_channel"
   },
@@ -6170,7 +6213,7 @@
   {
     "type": "provider",
     "title": "Natasha Ghosh | Learn Guitar & Ukulele Lessons",
-    "description": "",
+    "description": "Natasha Ghosh is a Dutch-Indian instrumentalist, singer and teacher known particularly for fingerstyle ukulele. Her lessons and arrangements cover fingerpicking, technique, popular melodies and tabs, alongside guitar and wider music-learning material.",
     "url": "providers/natasha-ghosh-learn-guitar-ukulele-lessons-aa7d79/",
     "keywords": "youtube_channel"
   },
@@ -6184,7 +6227,7 @@
   {
     "type": "provider",
     "title": "One Music School",
-    "description": "",
+    "description": "One Music School publishes ukulele and guitar tutorials for beginners and more experienced players. The selected ukulele lessons are particularly strong on practical strumming, percussive technique, fingerpicking patterns and applying those skills to songs.",
     "url": "providers/one-music-school-686d17/",
     "keywords": "youtube_channel"
   },
@@ -6226,7 +6269,7 @@
   {
     "type": "provider",
     "title": "Pardon my Piano",
-    "description": "",
+    "description": "Pardon my Piano is a piano-led music channel associated with pianist Michael Ronnett. The resources selected here concentrate on interactive listening: pitch and rhythm tests, ear-training quizzes, notation questions and musical challenges for learners and non-musicians alike.",
     "url": "providers/pardon-my-piano-d07a83/",
     "keywords": "youtube_channel"
   },
@@ -6247,7 +6290,7 @@
   {
     "type": "provider",
     "title": "Phil Doleman",
-    "description": "",
+    "description": "Phil Doleman is a ukulele player, teacher, workshop leader and author. His lessons connect practical playing with an understanding of how music works, covering beginner foundations, club playing, fingerstyle, chord melody, blues, harmony and arranging.",
     "url": "providers/phil-doleman-3eb0ea/",
     "keywords": "youtube_channel"
   },
@@ -6268,7 +6311,7 @@
   {
     "type": "provider",
     "title": "Piano Lesson with Warren",
-    "description": "",
+    "description": "Piano Lesson with Warren is Warren McPherson's platform for learning gospel piano by ear. Lessons connect chords, scales, progressions, melody and theory with a structured approach to practice, helping players understand and reproduce the music they hear.",
     "url": "providers/piano-lesson-with-warren-d85697/",
     "keywords": "youtube_channel"
   },
@@ -6380,7 +6423,7 @@
   {
     "type": "provider",
     "title": "Rhinebeck School of Music",
-    "description": "Selected teaching and music resources from Rhinebeck School of Music.",
+    "description": "Rhinebeck School of Music is a Hudson Valley music school founded by Erin Hobson and Karl Allweier. Its selected online resources range from accessible guitar and ukulele play-alongs to general musicianship topics such as intervals and ear-based understanding.",
     "url": "providers/rhinebeck-school-of-music-5edf80/",
     "keywords": "youtube_channel"
   },
@@ -6436,7 +6479,7 @@
   {
     "type": "provider",
     "title": "Rock Class 101",
-    "description": "",
+    "description": "Rock Class 101 is an online ukulele lessons community with structured learning paths from beginner to advanced. Its material includes technique, rhythm, fingerstyle, chord melody, complete arrangements, songwriting and a large collection of free and member lessons.",
     "url": "providers/rock-class-101-eccfb2/",
     "keywords": "youtube_channel"
   },
@@ -6506,7 +6549,7 @@
   {
     "type": "provider",
     "title": "SpicyUke",
-    "description": "",
+    "description": "SpicyUke is the teaching platform of online ukulele teacher Boris Mogilevski. Its lessons cover songs, strumming, chords, fingerstyle and practical technique, using a playful pepper-based difficulty system to help learners judge the level of a lesson.",
     "url": "providers/spicyuke-343a51/",
     "keywords": "youtube_channel"
   },
@@ -6576,7 +6619,7 @@
   {
     "type": "provider",
     "title": "TenThumbs Productions",
-    "description": "",
+    "description": "TenThumbs Productions publishes free lessons on ukulele, guitar and home music-making. Its ukulele library combines complete beginner instruction with popular-song tutorials, blues, funk, chord melody and practical exercises, often supported by tabs or downloadable material.",
     "url": "providers/tenthumbs-productions-9f8dcf/",
     "keywords": "youtube_channel"
   },
@@ -6639,14 +6682,14 @@
   {
     "type": "provider",
     "title": "The Uke Revolution",
-    "description": "",
+    "description": "Brooke Palmer's Uke Revolution approaches the ukulele through funk, soul, R&B, hip-hop, pop and blues. The channel combines song tutorials, play-alongs, rhythm lessons, arrangements and creative jamming, with an emphasis on playing music in a way that feels personal and enjoyable.",
     "url": "providers/the-uke-revolution-d4d127/",
     "keywords": "youtube_channel"
   },
   {
     "type": "provider",
     "title": "The Ukulele Fool",
-    "description": "",
+    "description": "Lisa, The Ukulele Fool, creates chord charts and lessons designed to build practical ukulele skills. Her teaching includes beginner songs, chord changes, strumming, chucking and play-alongs, presented with an emphasis on making steady progress through enjoyable repertoire.",
     "url": "providers/the-ukulele-fool-8b12db/",
     "keywords": "youtube_channel"
   },
@@ -6660,7 +6703,7 @@
   {
     "type": "provider",
     "title": "The Ukulele Teacher",
-    "description": "",
+    "description": "John Atkins, The Ukulele Teacher, has built a large free library of ukulele song tutorials and supporting content. The channel is strongly repertoire-led, helping players learn well-known songs through accessible chord, strumming and play-through instruction.",
     "url": "providers/the-ukulele-teacher-800991/",
     "keywords": "youtube_channel"
   },
@@ -6669,6 +6712,13 @@
     "title": "The White Stripes",
     "description": "",
     "url": "providers/the-white-stripes-046dae/",
+    "keywords": "youtube_channel"
+  },
+  {
+    "type": "provider",
+    "title": "TheSeventhFirst",
+    "description": "",
+    "url": "providers/theseventhfirst/",
     "keywords": "youtube_channel"
   },
   {
@@ -6821,7 +6871,7 @@
   {
     "type": "provider",
     "title": "Ukulele Underground",
-    "description": "Selected teaching and music resources from Ukulele Underground.",
+    "description": "Ukulele Underground is a long-running ukulele learning community combining video lessons, play-alongs, podcasts and an active discussion forum. Its resources range from beginner guidance to technique, practice, arranging and community knowledge shared by players and teachers.",
     "url": "providers/ukulele-underground-71892c/",
     "keywords": "youtube_channel"
   },
@@ -6835,21 +6885,21 @@
   {
     "type": "provider",
     "title": "Ukulele Wine Time",
-    "description": "Selected teaching and music resources from Ukulele Wine Time.",
+    "description": "Ukulele Wine Time offers beginner-friendly tutorials from music teacher Kathryn Selman, with an emphasis on progress rather than perfection. The lessons combine approachable songs with rhythm, listening and musicianship ideas intended to build confidence, creativity and independent musical thinking.",
     "url": "providers/ukulele-wine-time-4f0585/",
     "keywords": "youtube_channel"
   },
   {
     "type": "provider",
     "title": "Ukulele Zen",
-    "description": "",
+    "description": "Ukulele Zen is Stuart Fuchs's holistic approach to ukulele learning. Lessons combine practical technique, rhythm, fingerstyle and repertoire with creativity, relaxed attention and mindful practice; the wider programme also includes workshops, retreats and learning materials.",
     "url": "providers/ukulele-zen-3a0655/",
     "keywords": "youtube_channel"
   },
   {
     "type": "provider",
     "title": "Ukulele with Barry",
-    "description": "",
+    "description": "Ukulele with Barry is a relaxed learning channel aimed especially at older beginners and people returning to the instrument. It uses familiar songs, easy chord choices, clear tutorials and gentle introductions to strumming and fingerpicking.",
     "url": "providers/ukulele-with-barry-7db2c4/",
     "keywords": "youtube_channel"
   },
@@ -6918,6 +6968,13 @@
   },
   {
     "type": "provider",
+    "title": "Yep Roc Records",
+    "description": "",
+    "url": "providers/yep-roc-records/",
+    "keywords": "youtube_channel"
+  },
+  {
+    "type": "provider",
     "title": "Your Piano Bestie",
     "description": "",
     "url": "providers/your-piano-bestie-787398/",
@@ -6975,7 +7032,7 @@
   {
     "type": "provider",
     "title": "uke mullum",
-    "description": "",
+    "description": "Uke Mullum is the teaching and community-music project of Stukulele, based in Mullumbimby and the Northern Rivers of Australia. It offers online and in-person ukulele lessons, song tutorials, play-alongs and educational songbooks designed to help people make music together.",
     "url": "providers/uke-mullum-d697c0/",
     "keywords": "youtube_channel"
   },

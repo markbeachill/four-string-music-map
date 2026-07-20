@@ -1,12 +1,12 @@
 {
-  "started_at": "2026-07-19T16:24:14.380889+00:00",
-  "completed_at": "2026-07-19T16:24:23.813080+00:00",
-  "output_directory": "D:\\mygits\\musicsite\\musicsite-cowork-improved\\musicsite-cowork-improved\\production-site",
-  "prototype_mode": false,
+  "started_at": "2026-07-20T09:56:30.444696+00:00",
+  "completed_at": "2026-07-20T09:56:41.178182+00:00",
+  "output_directory": "D:\\mygits\\musicsite\\musicsite\\four-string-music-map\\public-site",
+  "prototype_mode": true,
   "pages_written": 20,
-  "songs_written": 79,
-  "providers_written": 210,
-  "resources_indexed": 536,
+  "songs_written": 80,
+  "providers_written": 212,
+  "resources_indexed": 540,
   "files_written": [
     ".nojekyll",
     "_headers",
@@ -200,6 +200,7 @@
     "providers\\the-ukulele-project-97b40e\\index.html",
     "providers\\the-ukulele-teacher-800991\\index.html",
     "providers\\the-white-stripes-046dae\\index.html",
+    "providers\\theseventhfirst\\index.html",
     "providers\\thomas-benjamin-wild-esq-18c7a0\\index.html",
     "providers\\tim-lynch-music-and-lessons-543520\\index.html",
     "providers\\tonebase-piano-276fa2\\index.html",
@@ -240,6 +241,7 @@
     "providers\\wired-718020\\index.html",
     "providers\\with-mariya-410a69\\index.html",
     "providers\\workforce-warriors-45e685\\index.html",
+    "providers\\yep-roc-records\\index.html",
     "providers\\your-piano-bestie-787398\\index.html",
     "providers\\zak-serroukh-552e32\\index.html",
     "resources\\index.html",
@@ -279,6 +281,7 @@
     "songs\\i-can-t-stand-the-rain\\index.html",
     "songs\\i-feel-for-you\\index.html",
     "songs\\i-ll-fly-away\\index.html",
+    "songs\\i-love-the-sound-of-breaking-glass\\index.html",
     "songs\\i-think-i-like-you-better-when-you-re-gone\\index.html",
     "songs\\index.html",
     "songs\\itchycoo-park\\index.html",
@@ -328,5 +331,7 @@
     "songs\\yellow\\index.html",
     "theory\\index.html"
   ],
-  "warnings": []
+  "warnings": [
+    "Prototype mode includes draft pages and songs. Review before public deployment."
+  ]
 }
