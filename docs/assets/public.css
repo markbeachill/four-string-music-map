@@ -22,7 +22,6 @@ img { max-width: 100%; }
 button, input, select { font: inherit; }
 .public-shell { width: min(var(--max), calc(100% - 34px)); margin-inline: auto; }
 .content-width { width: min(1040px, calc(100% - 34px)); margin-inline: auto; }
-.prototype-banner { padding: 7px 16px; text-align: center; background: #fff1c8; color: #604c16; border-bottom: 1px solid #e9d79f; font-size: 13px; font-weight: 700; }
 .public-header { position: sticky; top: 0; z-index: 40; background: rgba(255,253,248,.95); backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); }
 .header-row { min-height: 72px; display: flex; align-items: center; gap: 28px; }
 .public-brand { color: var(--ink); text-decoration: none; font-weight: 800; letter-spacing: -.02em; font-size: 20px; white-space: nowrap; }
@@ -434,7 +433,7 @@ h3 { font-size: 15px; }
 .sidebar-jumps a { font-size: 12.5px; }
 
 /* --- Strip the decorative furniture -------------------------- */
-.stat-strip, .hero-map, .hero-actions, .eyebrow, .prototype-banner + .home-hero { display: none; }
+.stat-strip, .hero-map, .hero-actions, .eyebrow { display: none; }
 .soft-block { background: none; }
 .content-block.soft-block { padding-top: 1.1rem; }
 
@@ -514,7 +513,6 @@ a:visited { color: var(--link-visited); }
   padding: 1.2rem 0;
 }
 .public-footer a, .public-footer strong { color: var(--fg-soft); }
-.prototype-banner { background: #fff; color: var(--fg-soft); border-bottom: 1px solid var(--rule); font-weight: 500; }
 
 /* --- Resource rows with thumbnails --------------------------- */
 .res-list { border-top: 1px solid var(--rule-soft); }
@@ -611,8 +609,7 @@ a:visited { color: var(--link-visited); }
 }
 [data-theme="dark"] body { background: var(--bg); color: var(--fg); }
 [data-theme="dark"] .public-header,
-[data-theme="dark"] .public-footer,
-[data-theme="dark"] .prototype-banner { background: var(--bg); }
+[data-theme="dark"] .public-footer { background: var(--bg); }
 [data-theme="dark"] img { opacity: .92; }
 
 .theme-toggle {
@@ -886,3 +883,18 @@ input::placeholder { color: var(--fg-faint); }
 }
 
 .res-tag.curator-pick { font-weight: 750; }
+
+/* Song pages group video cards without full-width divider rules. */
+.song-detail-page .content-block {
+  border-bottom: 0;
+  padding-top: 1.65rem;
+}
+.song-detail-page .content-block h2,
+.song-detail-page .directory-heading {
+  border-bottom: 0;
+  padding-bottom: 0;
+  margin-bottom: .7rem;
+}
+.song-detail-page .song-video-section + .song-video-section {
+  padding-top: 1.25rem;
+}
